@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Tovar register page</h3>
+
+    <a href="http://localhost:5000/">Home</a>
+    <a href="https://google.com.ua/">Google</a>
+    <a href="http://localhost:5000/Users/Register">Register</a>
+    <a href="http://localhost:5000/AboutTovar">About tovar</a>
+
+    <form action="http://localhost:5000/AboutTovar" method="POST">
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        TovarName:
+                    </td>
+                    <td>
+                        <input type="text" name="TovarName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Count:
+                    </td>
+                    <td>
+                        <input type="number" name="Count">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cost:
+                    </td>
+                    <td>
+                        <input type="text" name="Cost">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Data:
+                    </td>
+                    <td>
+                        <input type="datetime" name="Data">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Register">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </form>
+</body>
+
+</html>
